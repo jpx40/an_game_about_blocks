@@ -2,11 +2,11 @@
 
 mod actions;
 mod audio;
+mod camera;
 mod loading;
 mod menu;
 mod player;
 mod scene;
-mod camera;
 use crate::actions::ActionsPlugin;
 use crate::audio::InternalAudioPlugin;
 use crate::loading::LoadingPlugin;

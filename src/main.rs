@@ -10,10 +10,6 @@ use bevy_game::GamePlugin; // ToDo: Replace bevy_game with your new crate name.
 use std::io::Cursor;
 use winit::window::Icon;
 
-
-
-
-
 fn main() {
     App::new()
         .insert_resource(ClearColor(Color::linear_rgb(0.4, 0.4, 0.4)))
